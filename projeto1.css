@@ -1,14 +1,16 @@
-*{
+* {
     border: 0px;
     padding: 0px;
     margin: 0px
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&family=Noto+Sans&family=Playfair+Display&display=swap');
 
 bory {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
-    }
+}
+
 .main-cadastro {
     width: 100vw;
     height: 100vh;
@@ -17,7 +19,8 @@ bory {
     justify-content: center;
     align-items: center;
 }
-.left-cadastro{
+
+.left-cadastro {
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -26,19 +29,19 @@ bory {
     flex-direction: column;
 }
 
-.left-cadastro > h1 {
+.left-cadastro>h1 {
     font-size: 2vw;
     color: rgb(165, 42, 42);
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
 }
 
-.left-cadastro-image{
+.left-cadastro-image {
     width: 30vw;
 
 }
 
-.right-cadastro{
+.right-cadastro {
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -46,7 +49,7 @@ bory {
     align-items: center;
 }
 
-.textfield{
+.textfield {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -59,18 +62,30 @@ bory {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.card-cadastro > h1 {
+.card-cadastro>h1 {
     color: brown;
     text-align: center;
     font-weight: 800;
-    margin: 20;  
+    margin: 20;
     padding: 20px 25px;
     justify-content: center;
     align-items: center;
     font-family: 'Noto Sans', sans-serif;
 }
 
-.textfield > input{
+p {
+    color: brown;
+    text-align: center;
+    font-weight: 800;
+    margin: 20;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.textfield>input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -80,21 +95,21 @@ bory {
     font-size: 12pt;
     box-sizing: 0px 10px 40px;
     font-family: 'Noto Sans', sans-serif;
-    
+
 }
 
-.textfield > label{
+.textfield>label {
     color: rgb(8, 8, 8);
     margin-bottom: 10px;
 
 }
 
-.textfield > input::placeholder {
-    color: aliceblue;   
+.textfield>input::placeholder {
+    color: aliceblue;
     font-family: 'Noto Sans', sans-serif;
 }
 
-.ptn-enviar{
+.ptn-enviar {
     width: 100%;
     padding: 16px 0px;
     margin: 25%;
@@ -102,12 +117,10 @@ bory {
     border-radius: 8px;
     text-transform: uppercase;
     cursor: pointer;
-    box-shadow: 0px 10px 40px; color: #00000056;
- 
+    box-shadow: 0px 10px 40px;
+    color: #00000056;
+
 }
 
-@media only screen and (max-width: 950px){
-    .card-cadastro{
-        width: 85%;
-    }
-}
+
+
