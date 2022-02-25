@@ -77,8 +77,9 @@ p {
     color: brown;
     text-align: center;
     font-weight: 800;
-    margin: 20;
-    padding: 20px 25px;
+    margin: 30px;
+    padding: 30px 35px;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     font-family: 'Noto Sans', sans-serif;
@@ -122,5 +123,57 @@ p {
 
 }
 
+@media (max-width: 770px) {
+    p {
+        margin: 0px;
+        padding: 0px;
 
+    }
+}
 
+@media (max-width: 770px) {
+    .right-cadastro {
+        width: 50vw;
+        height: 60vh;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .textfield {
+        width: 50vw;
+        height: 60vh;
+        margin: 5px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .ptn-enviar {
+        width: 50%;
+        padding: 8px 0px;
+        margin: 10%;
+        border: none;
+        box-shadow: 0px 5px 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    input {
+        width: 60%;
+        border: none;
+        border-radius: 5px;
+        padding: 7px;
+        font-size: 9pt;
+        box-sizing: 0px 5px 20px;
+        
+    }
+
+}
+
+@media (max-width: 800px) {
+    .main-cadastro{
+        flex-direction: column;
+        width: 100%;
+    }
+}
